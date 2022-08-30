@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- box icone -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- ALL css -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- responsive CSS -->
+  <link rel="stylesheet" href="./responsive.css">
+  <!-- SETTING CSS  -->
+  <link rel="stylesheet" href="./setting.css">
+  <!-- country CSS  -->
+  <link rel="stylesheet" href="./country.css">
+  <!-- responsive map css  -->
+  <link rel="stylesheet" href="./responsiveMap.css">
+  <!-- chart css  -->
+  <link rel="stylesheet" href="./chart.css">
+
+  <title>Material Dashboard PRO React by Creative Tim | PPremium React Admin Template</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="saidbar" id="saidbar">
+      <div class="saidbar-img">
+        <img class="bgc-img" id="saidbar1" src="../image/eside bgc4.jpg" alt="" />
+      </div>
+
+      <div class="saidbar-content">
+        <div class="title">
+
+         
+         
+
+          <div class="jc_sb">
+
+            <i id="toggle_fullPage" class="bx bxl-react"></i>
+            <h3 class="toggle-h3" id="bgc_tim">CREATIVE TIM</h3>
+          </div>
+        </div>
+
+        <div class="scroll-saidbar">
+          <div class="profil" id="profil">
+
+            <div class="select" id="select">
+              <div class="select-bgc">
+                <img src="../image/girl.jpg" alt="">
+                <h3>Tania Andrew</h3>
+                <i id="rotate1" class='bx bxs-down-arrow'></i>
+              </div>
+            </div>
+
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>P</h3>
+                <h3>Profil</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>S</h3>
+                <h3>setting</h3>
+              </div>
+            </div>
+          </div>
+          <div class="borderbottom"></div>
+
+          <!-- search  -->
+          <div class="search-nav" id="search-nav">
+            <input type="search" placeholder="Search..." id="search-input">
+            <i id="searchRes" class='bx bx-search'></i>
+          </div>
+
+          <!-- dashboard -->
+          <div class="dashboard" id="dashboard">
+            <div class="contenet-dashboard" id="contenet-dashboard">
+              <i class='bx bxs-dashboard'></i>
+              <h3> Dashboard </h3>
+            </div>
+          </div>
+
+          <!-- page  -->
+
+          <div class="page" id="page">
+
+            <div class="page-bgc">
+              <div class="parant-page-item">
+                <div class="bgc-color">
+                  <i class='bx bx-image-alt'></i>
+                  <h3>Page</h3>
+                </div>
+                <i id="rotate2" class='bx bxs-down-arrow'></i>
+              </div>
+            </div>
+
+
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PP</h3>
+                <h3>Pricing Page</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>RS</h3>
+                <h3>RTL Suppurt</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>T</h3>
+                <h3>Timeline</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>RP</h3>
+                <h3>React Page</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>AS</h3>
+                <h3>ALL Support</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>AE</h3>
+                <h3>All Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>UP</h3>
+                <h3>User pro</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>EP</h3>
+                <h3>Eror Page</h3>
+              </div>
+            </div>
+          </div>
+
+          <!--components-->
+
+          <div class="Component" id="Component">
+
+            <div class="page-bgc">
+              <div class="parant-page-item">
+                <div class="bgc-color">
+                  <i class='bx bxs-component'></i>
+                  <h3>Component</h3>
+                </div>
+                <i id="rotate3" class='bx bxs-down-arrow'></i>
+              </div>
+            </div>
+
+
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- form  -->
+
+
+          <div class="form" id="form">
+
+            <div class="page-bgc">
+              <div class="parant-page-item">
+                <div class="bgc-color">
+                  <i class='bx bx-notepad'></i>
+                  <h3>Form</h3>
+                </div>
+                <i id="rotate4" class='bx bxs-down-arrow'></i>
+              </div>
+            </div>
+
+
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- maps  -->
+
+          <div class="maps" id="maps">
+
+            <div class="page-bgc">
+              <div class="parant-page-item">
+                <div class="bgc-color">
+                  <i class='bx bxs-location-plus'></i>
+                  <h3>Maps</h3>
+                </div>
+                <i id="rotate5" class='bx bxs-down-arrow'></i>
+              </div>
+            </div>
+
+
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+            <div class="select-item">
+              <div class="item-bgc">
+                <h3>PE</h3>
+                <h3>Profil Edit</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- widgets -->
+
+          <div class="widgets" id="widgets">
+            <div class="contenet-widgets " id="bgc1">
+              <i class='bx bxs-widget'></i>
+              <h3> Widgets </h3>
+            </div>
+          </div>
+
+          <!-- charts  -->
+
+          <div class="widgets" id="charts">
+            <div class="contenet-widgets " id="bgc2">
+              <i class='bx bx-network-chart'></i>
+              <h3> charts </h3>
+            </div>
+          </div>
+
+          <!-- calendar  -->
+
+          <div class="widgets " id="calendar">
+            <div class="contenet-widgets " id="bgc3">
+              <i class='bx bx-calendar'></i>
+              <h3> Calendar </h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- main page startdet -->
+  <div class="main-page" id="fullPage">
+
+    <!-- header -->
+    <header>
+      <nav>
+        <div class="left" id="left">
+          <div class="saidbar-button" id="saidbar-button">
+            <!-- <i id="nuqta" class="fa-solid fa-ellipsis-vertical nuqta"></i> -->
+            <i id="list-icone" class="fa-solid fa-list list-icone"></i>
+          </div>
+          <h3>
+            Dashboard
+          </h3>
+        </div>
+        <div class="rigth">
+          <input type="search" placeholder="Search...">
+          <i id="search" class='bx bx-search'></i>
+          <i class='bx bxs-dashboard'></i>
+          <i id="bell" class='bx bxs-bell'></i>
+          <span id="massage_value" style="padding: 2px 4px;background-color: red; border-radius: 50%;font-size: .4rem;color: aliceblue; position: relative; margin-left: -30px;margin-top: -22px;
+            z-index: -1;  ">5</span>
+          <i id="user" class='bx bxs-user'></i>
+        </div>
+      </nav>
+      <i id="hamburger" class="fa-solid fa-bars "></i>
+    </header>
+    <!-- header -->
+
+    <!-- active section  -->
+
+    <div class="active-page">
+
+
+      <!-- first  -->
+      <div class="first-item">
+        <div class="first-top">
+          <div class="first-left">
+            <i class='bx bx-copy'></i>
+          </div>
+          <div class="first-rigth">
+            <span>Used Space</span>
+            <h3>49/50 GB</h3>
+          </div>
+        </div>
+        <div class="first-bottom">
+          <div class="bottom-item item-b1">
+            <i style="color: red;" class="fa-solid fa-triangle-exclamation"></i><span>Get more space</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- second  -->
+
+      <div class="first-item">
+        <div class="first-top">
+          <div class="first-left">
+            <i style="background-color: #49a54d;" class='bx bx-home'></i>
+          </div>
+          <div class="first-rigth">
+            <span>Revenue</span>
+            <h3>
+              $34,245
+            </h3>
+          </div>
+        </div>
+        <div class="first-bottom">
+          <div class="bottom-item">
+            <i class='bx bx-calendar'></i><span>Get more space</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- tree  -->
+      <div class="first-item">
+        <div class="first-top">
+          <div class="first-left">
+            <i style="background-color: #e63d39;" class="fa-solid fa-circle-exclamation"></i>
+          </div>
+          <div class="first-rigth">
+            <span>Revenue</span>
+            <h3>75</h3>
+          </div>
+        </div>
+        <div class="first-bottom">
+          <div class="bottom-item">
+            <i class="fa-solid fa-tag"></i><span>Get more space</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- four  -->
+      <div class="first-item">
+        <div class="first-top">
+          <div class="first-left">
+            <i style="background-color: #06b0c5;" class='bx bxl-twitter'></i>
+          </div>
+          <div class="first-rigth">
+            <span>Followers</span>
+            <h3>245k+</h3>
+          </div>
+        </div>
+        <div class="first-bottom">
+          <div class="bottom-item">
+            <i class="fa-solid fa-clock-rotate-left"></i><span>Get more space</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- setting page -->
+
+    <div class="setting" id="setting">
+      <div class="setti-content">
+
+        <!-- top  -->
+
+        <div class="top-setting">
+          <div class="title-set">
+            <h4>SIDEBAR FILTERS</h4>
+          </div>
+          <div class="color-set">
+            <div class="toggle-color" id="colorSaidbar1" style="background-color:blueviolet ;"></div>
+            <div class="toggle-color"  id="colorSaidbar1"  style="background-color:#09b2c7 ;"></div>
+            <div class="toggle-color"  id="colorSaidbar1" style="background-color:green ;"></div>
+            <div class="toggle-color" style="background-color:red ;"></div>
+            <div class="toggle-color" style="background-color:yellow ;"></div>
+            <div class="toggle-color" style="background-color:rgb(232, 229, 229);"></div>
+            <div class="toggle-color" style="background-color:rgb(255, 81, 0) ;"></div>
+          </div>
+        </div>
+
+        <!-- middle -->
+
+        <div class="bgc-saidbar-set">
+          <div class="title-set">
+            <h4>SIDEBAR BACKGROUND</h4>
+          </div>
+          <div class="color-bgc">
+            <div  style="background-color: #09b2c7;"></div>
+            <div  style="background-color: rgb(232, 229, 229);"></div>
+            <div style="background-color: black;"></div>
+          </div>
+        </div>
+        <div class="border-set"></div>
+
+
+
+        <!-- bgc img setting  -->
+
+        <div class="bgc-img-setting">
+          <div class="title-set">
+            <h4>IMAGES</h4>
+          </div>
+          <div class="bgc-img-item">
+            <img id="clickImg1" src="../image/eside bgc1.jpg" alt="">
+            <img src="../image/eside bgc2.jpg" alt="">
+            <img src="../image/eside bgc3.jpg" alt="">
+            <img src="../image/eside bgc4.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="buttong-shop">
+          <button class="buy">BUY NOW</button><br>
+          <button class="docum">DOCUMENTATION</button><br>
+          <p>THANK YOU FOR SHARING!</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- setting button  -->
+    <div class="setting-show-button" id="buttonSet">
+      <div class="bgc-set-show">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+
+    <!-- country section  -->
+
+    <div class="country-section">
+
+      <!-- left section  -->
+      <div class="left-country">
+        <!-- top  -->
+        <div class="country-top">
+          <div class="earth-di"> <i id="earth-map" class="fa-solid fa-globe"></i></div>
+          <h4 class="top-title">Global Sales by Top Locations</h4>
+        </div>
+
+        <!-- statistic-country -->
+        <div class="statistic-country">
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/usa.webp" alt="">
+              <h5>USA</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>2.920 </h5>
+              <h5>53.23%</h5>
+            </div>
+          </div>
+
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/germany.gif" alt="">
+              <h5>Germany</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>1.300 </h5>
+              <h5>20.43%</h5>
+            </div>
+          </div>
+
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/australiya.png" alt="">
+              <h5>Australia</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>760</h5>
+              <h5>10.35%</h5>
+            </div>
+          </div>
+
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/british.webp" alt="">
+              <h5>Britania</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>2.920 </h5>
+              <h5>53.23%</h5>
+            </div>
+          </div>
+
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/ruminiya.png" alt="">
+              <h5>Romania</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>2.920 </h5>
+              <h5>53.23%</h5>
+            </div>
+          </div>
+
+          <div class="usa">
+            <div class="usa_left">
+              <img src="../image/brasil.png" alt="">
+              <h5>Brasil</h5>
+            </div>
+            <div class="usa-rigth">
+              <h5>2.920 </h5>
+              <h5>53.23%</h5>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="rogth-map">
+        <img src="../image/map2.png" alt="">
+      </div>
+    </div>
+
+    <!-- chart section  -->
+
+    <div class="chart-api">
+      <div class="chart-one hover1">
+        <div class="img-chart">
+          <img class="img-chart1" src="../image/statistic.png" alt="">
+        </div>
+        <div class="chart-icone">
+          <i id="refesh" class="fa-solid fa-rotate-right"></i>
+          <i id="pencil" class='bx bxs-pencil'></i>
+        </div>
+        <div class="chart-daily">
+          <h4>Daily Sales</h4>
+          <div class="icone-wrapper">
+            <i class="fa-solid fa-arrow-up-long"></i>
+            <p><span>55%</span> increase in today sales.</p>
+          </div>
+        </div>
+        <div class="chart-bottom">
+          <i class="fa-solid fa-clock"></i><span>updated 4 minutes ago</span>
+        </div>
+      </div>
+
+      <div class="chart-one hover2">
+        <div class="img-chart">
+          <img class="img-chart2" src="../image/statistic2.png" alt="">
+        </div>
+        <div class="chart-icone">
+          <i id="refesh" class="fa-solid fa-rotate-right"></i>
+          <i id="pencil" class='bx bxs-pencil'></i>
+        </div>
+        <div class="chart-daily">
+          <h4>Email Subscriptions<h4>
+              <div class="icone-wrapper">
+                <p> Last Campaign Performance</p>
+              </div>
+        </div>
+        <div class="chart-bottom">
+          <i class="fa-solid fa-clock"></i><span>campaign sent 2 days ago</span>
+        </div>
+      </div>
+
+      <div class="chart-one hover3">
+        <div class="img-chart">
+          <img class="img-chart3" src="../image/statistic3.png" alt="">
+        </div>
+        <div class="chart-icone">
+          <i id="refesh" class="fa-solid fa-rotate-right"></i><br>
+          <i id="pencil" class='bx bxs-pencil'></i>
+        </div>
+        <div class="chart-daily">
+          <h4>Completed Tasks</h4>
+          <div class="icone-wrapper">
+            <p> Last Campaign Performance</p>
+          </div>
+        </div>
+        <div class="chart-bottom">
+          <i class="fa-solid fa-clock"></i><span>campaign sent 2 days ago</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Manage listings -->
+
+    <div class="manage">
+      <div class="title-manage">
+        <h3>Manage Listings </h3>
+      </div>
+      <div class="manage-item">
+
+        <div class="manage-item-one hover-manage1">
+          <div class="img-manage">
+            <img class="mImg-hover1" src="../image/room2.png" alt="">
+          </div>
+          <div class="manage-icone">
+            <i class="fa-solid fa-id-card"></i>
+            <i id="green" class="fa-solid fa-rotate-right"></i>
+            <i id="red" class='bx bxs-pencil'></i>
+          </div>
+          <div class="df-jcc-title">
+            <div class="manage-item-title">
+              <h3>Cozy 5 Stars Apartment</h3>
+            </div>
+            <div class="manage-item-subtitle">
+              <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where
+                you can enjoy the main night life in Barcelona.</p>
+            </div>
+          </div>
+          <div class="bottom-manage">
+            <div class="left-manage">
+              <p>$899/night</p>
+            </div>
+            <div class="rigth-manage">
+              <i class="fa-solid fa-location-pin"></i>
+              <span>Barcelona, Spain</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="manage-item-one hover-manage1">
+          <div class="img-manage">
+            <img class="mImg-hover1" src="../image/room1.png" alt="">
+          </div>
+          <div class="manage-icone">
+            <i class="fa-solid fa-id-card"></i>
+            <i id="green" class="fa-solid fa-rotate-right"></i>
+            <i id="red" class='bx bxs-pencil'></i>
+          </div>
+          <div class="df-jcc-title">
+            <div class="manage-item-title">
+              <h3>Office Studio </h3>
+            </div>
+            <div class="manage-item-subtitle">
+              <p>The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio" where you
+                can enjoy the night life in London, UK.</p>
+            </div>
+          </div>
+          <div class="bottom-manage">
+            <div class="left-manage">
+              <p>$$1.119/night</p>
+            </div>
+            <div class="rigth-manage">
+              <i class="fa-solid fa-location-pin"></i>
+              <span>London, UK</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="manage-item-one hover-manage1">
+          <div class="img-manage">
+            <img class="mImg-hover1" src="../image/room3.png" alt="">
+          </div>
+          <div class="manage-icone">
+            <i  class="fa-solid fa-id-card"></i>
+            <i id="green" class="fa-solid fa-rotate-right"></i>
+            <i id="red" class='bx bxs-pencil'></i>
+          </div>
+          <div class="df-jcc-title">
+            <div class="manage-item-title">
+              <h3>Beautiful Castle</h3>
+            </div>
+            <div class="manage-item-subtitle">
+              <p>The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio" where you
+                can enjoy the main night life in Milan.</p>
+            </div>
+          </div>
+          <div class="bottom-manage">
+            <div class="left-manage">
+              <p>$459/night</p>
+            </div>
+            <div class="rigth-manage">
+              <i class="fa-solid fa-location-pin"></i>
+              <span>Milan, Italy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer  -->
+
+      </div>
+      <footer class="footer">
+        <ul>
+          <li>
+            HOME
+          </li>
+          <li>
+            COMPANY
+          </li>
+          <li>
+            PORTFOLIO
+          </li>
+          <li>
+            BLOG
+          </li>
+        </ul>
+        <div class="rigth-footer">
+          <p>© 2022 Creative Tim, made with love for a better web</p>
+        </div>
+      </footer>
+    </div>
+ 
+
+    <!-- profil edit and massage  -->
+
+
+    <div class="massage" id="massage">
+      <p>Lorem ipsum dolor sit amet </p>
+      <p>Accaun 5 ipsum  sit.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Another Notification</p>
+      <p>Another One</p>
+    </div>
+
+    <div class="edit-profil" id="eddProfil">
+      <p>Profile</p>
+      <p>Settings</p>
+      <hr>
+      <p >Log out</p>      
+
+      
+    </div>
+
+
+    <!-- app java script  -->
+    <script src="./app.js"></script>
+
+    <!-- focus java script  -->
+    <script src="./focus.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 1181px){
+    .country-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-country{
+        width: 100%;
+    }
+    .rogth-map{
+        width: 90%;
+    }
+}
+@media screen and (max-width:935px){
+    .country-section{
+        top: 150px;
+    }
+  }
+
+  @media screen and (max-width:676px){
+    .country-section{
+        top: 500px;
+        margin-bottom: 550px;
+    }
+  }
+  @media screen and  (max-width:510px) {
+    .usa-rigth{
+        display: flex;
+        align-items: center;
+        gap: 10%;
+        width: 20%;
+        justify-content: end;
+        padding-right: 0;
+    }
+  }
+
+
+

@@ -1,0 +1,132 @@
+
+/* full pageni width 80% boladi saidbarniki 20%*/
+@media screen and(max-width:1415px){
+    .saidbar{
+        width: 30%;
+    }
+    #fullPage{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1181px){
+    .saidbar{
+        width: 20%;
+    }
+    #fullPage{
+        width: 80%;
+    }
+    .fullPageREs1040Toggle{
+        width: 90%;
+    }
+}
+
+
+/*saidbar yoqoladi navbardagi input saidbarga otadi fullpageni width 100% boladi saidbar responsive boladi*/
+
+
+@media screen and (max-width: 975px) {
+    #fullPage{
+        width: 100%;
+    }
+    #hamburger{
+        display: block;
+    }
+   
+    /* navbarni yoqolishi  */
+    nav i, input, #massage_value{
+        opacity: 0;
+    }
+    .saidbar-button{
+        display: none;
+    }
+
+    /* saidbar toggle*/
+    .saidbar-toggle{
+        position: fixed;
+        right: 0;
+        width: 30%;
+        z-index: 11111;
+        transition: 0.3s;
+    }
+   
+    .search-nav{
+        display: block;
+    }
+    #saidbar-menu{
+        display: block;
+    }
+
+  }
+
+  @media screen and (max-width:935px){
+    .active-page{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .first-item{
+        width: 46%;
+        margin-top: 30px;
+    }
+    .saidbar-toggle{
+        position: fixed;
+        right: 0%;
+        width: 50%;
+        z-index: 11111;
+
+    }
+  }
+  @media screen and (max-width:676px){
+    .active-page{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-item{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .saidbar-toggle{
+        position: fixed;
+        right: 0%;
+        width: 50%;
+        z-index: 11111;
+
+    }
+  }
+
+  @media screen and(max-width:512px){
+   .saidbar{
+    width: 40%;
+   }
+  }
+
+  @media screen and (max-width: 445px) {
+    .saidbar-toggle{
+        position: fixed;
+        right: 0%;
+        width: 60%;
+  }
+}
+
+  @media screen and (max-width: 375px) {
+
+    .active-page{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .saidbar-toggle{
+        position: fixed;
+        right: 0%;
+        width: 80%;
+        z-index: 11111;
+    }
+  }

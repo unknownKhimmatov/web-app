@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.country-section{
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 7px;
+    box-shadow: 2px 2px 10px rgba(66, 66, 66, 0.155);
+}
+.statistic-country img{
+    width: 20px;
+    aspect-ratio: 1/.8;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+/* left .country-section */
+.left-country{
+    width: 46%;
+    padding: 1%;
+    height: 100%;
+}
+.country-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+
+}
+
+.top-title{
+    font-size: 1.3rem;
+    font-weight: 320;
+}
+
+
+/* earth-di */
+.earth-di{
+    position: relative;
+    margin-top: -6%;
+    width: 70px;
+    height: 70px;
+    background-color: #4ba64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #4646466f 2px 2px 10px; 
+    border-radius: 3px;
+}
+#earth-map{
+    font-size: 1.3rem;
+    color:#fff;
+}
+    
+
+/* usa  */
+.usa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 50%;
+    padding: 2% 0;
+    border-top: 0.7px solid rgba(49, 49, 49, 0.078);
+    border-bottom: .7px solid rgba(49, 49, 49, 0.078);
+}
+.usa_left{
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    gap: 20%;
+    align-items: center;
+}
+.usa_left h5{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.usa-rigth{
+    display: flex;
+    align-items: center;
+    gap: 50%;
+    width: 50%;
+    justify-content: end;
+    padding-right: 10%;
+}
+.usa-rigth h5{
+    font-size: 1rem;
+    font-weight: 300;
+   
+}
+
+
+.rogth-map {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+.rogth-map img{
+    width: 100%;
+    aspect-ratio: 1/.5;
+    object-fit: cover;
+}
+
+
+#nuqta{
+    padding: 10px 16px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    box-shadow: 2px 2px 10px rgba(87, 85, 85, 0.032);
+    border-radius: 50%;
+    color: #00000038;
+}
+#nuqta:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+  }
